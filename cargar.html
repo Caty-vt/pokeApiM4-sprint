@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <title>Cargar Pokémons</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Poke-Api</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Buscar Pokemon por nombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cargar.html">Cargar Pokemon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Spring Modulo 4
+            </span>
+          </div>
+        </div>
+      </nav>
+      <div class="container mt-4" id="botones">
+          <button type="button" class="btn btn-primary" onclick="borrar()">Borrar</button>
+          <button type="button" class="btn btn-primary" onclick="cargarpokemon()">Cargar</button>
+          <button type="button" class="btn btn-primary" onclick="siguienterpokemon()" id="siguiente" hidden>siguiente</button>
+          
+      </div>    
+      <div  class="container-fluid  py-3 ">
+        <div class="row row-col-2 "id="pokemones">
+            
+        </div>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assest/js/app.js"></script>
+</body>
+</html>
