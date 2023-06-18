@@ -12,6 +12,7 @@ async function buscarpokemon() {
     }
   }
 // card de Pokemon encontrado y posterior modal con grafico
+//intentare 
 
 
 
