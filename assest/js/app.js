@@ -11,15 +11,6 @@ async function buscarpokemon() {
       console.log("error");
     }
   }
-// card de Pokemon encontrado y posterior modal con grafico
-//intentare 
-
-
-
-
-
-
-
 
 //   guardar next de manera global
   let nextpoke = ""
